@@ -7,7 +7,7 @@ let x = xOrig;
 let y = yOrig;
 let iPhoneWidth = 375;
 let iPhonwHeight = 667;
-let shortenHeight = 200;
+let shortenHeight = 100;
 
 
 function setup() {
