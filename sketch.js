@@ -17,10 +17,9 @@ function setup() {
 
 function draw() {
     background(220);
-    // rect(0, 600, 375, 67);
     circle(x, y, circleDiam);
-    x += xStep;
-    y += yStep;;
+    x += 2 * xStep;
+    y += 2 * yStep;;
     if (x > iPhoneWidth - (circleDiam / 2)) { x = xOrig };
     if (y > iPhoneHeight - (circleDiam)) { y = yOrig };
 }
