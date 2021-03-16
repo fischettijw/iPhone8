@@ -9,7 +9,6 @@ let iPhoneWidth = 375;
 let iPhonwHeight = 667;
 let shortenHeight = 100;
 
-
 function setup() {
     createCanvas(iPhoneWidth, iPhonwHeight - shortenHeight);
     background(220);
