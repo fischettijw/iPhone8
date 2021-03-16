@@ -5,12 +5,12 @@ let xStep = 1;
 let yStep = 1;
 let x = xOrig;
 let y = yOrig;
-let shortenHeight = 50;
+let shortenHeight = 0;
 let iPhoneWidth = 375;
 let iPhoneHeight = 667 - shortenHeight;
 
 function setup() {
-    createCanvas(iPhoneWidth, 667);
+    createCanvas(iPhoneWidth, iPhoneHeight);
     background(220);
     noStroke();
 }
