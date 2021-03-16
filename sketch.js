@@ -17,6 +17,7 @@ function setup() {
 
 function draw() {
     background(220);
+    fill('red');
     circle(x, y, circleDiam);
     x += 2 * xStep;
     y += 2 * yStep;;
