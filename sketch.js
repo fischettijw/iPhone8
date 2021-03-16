@@ -5,7 +5,7 @@ let xStep = 1;
 let yStep = 1;
 let x = xOrig;
 let y = yOrig;
-let shortenHeight = 50;
+let shortenHeight = 75;
 let iPhoneWidth = 375;
 let iPhonwHeight = 667 - shortenHeight;
 
