@@ -22,5 +22,5 @@ function draw() {
     x += 2 * xStep;
     y += 2 * yStep;;
     if (x > iPhoneWidth - (circleDiam / 2)) { x = xOrig };
-    if (y > iPhoneHeight - (circleDiam / 2)) { y = yOrig };
+    if (y > iPhoneHeight - (circleDiam / 2) - 200) { y = yOrig };
 }
