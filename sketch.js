@@ -27,6 +27,7 @@ function draw() {
     line(0, 300, 667, 300);
     line(0, 400, 667, 400);
     line(0, 500, 667, 500);
+    line(0, 550, 667, 550);
     line(0, 600, 667, 600);
 
     fill('red');
@@ -34,6 +35,6 @@ function draw() {
     x += 2 * xStep;
     y += 2 * yStep;;
     if (x > iPhoneWidth - (circleDiam / 2)) { x = xOrig };
-    if (y > 600 - (circleDiam / 2)) { y = yOrig };
+    if (y > 550 - (circleDiam / 2)) { y = yOrig };
     // if (y > iPhoneHeight - (circleDiam / 2) - 150) { y = yOrig };
 }
