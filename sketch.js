@@ -1,8 +1,8 @@
 let circleDiam = 50;
 let xOrig = circleDiam / 2;
 let yOrig = circleDiam / 2;
-let xStep = 3;
-let yStep = 4;
+let xStep = 1;
+let yStep = 1;
 let x = xOrig;
 let y = yOrig;
 let shortenHeight = 0;
