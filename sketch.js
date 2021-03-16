@@ -5,12 +5,12 @@ let xStep = 1;
 let yStep = 1;
 let x = xOrig;
 let y = yOrig;
+let shortenHeight = 50;
 let iPhoneWidth = 375;
-let iPhonwHeight = 667;
-let shortenHeight = 100;
+let iPhonwHeight = 667 - shortenHeight;
 
 function setup() {
-    createCanvas(iPhoneWidth, iPhonwHeight - shortenHeight);
+    createCanvas(iPhoneWidth, iPhonwHeight);
     background(220);
     noStroke();
 }
@@ -22,5 +22,5 @@ function draw() {
     x += xStep;
     y += yStep;;
     if (x > iPhoneWidth - (circleDiam / 2)) { x = xOrig };
-    if (y > iPhonwHeight - shortenHeight - (circleDiam / 2)) { y = yOrig };
+    if (y > iPhonwHeight - (circleDiam)) { y = yOrig };
 }
