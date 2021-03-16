@@ -5,22 +5,22 @@ let xStep = 1;
 let yStep = 1;
 let x = xOrig;
 let y = yOrig;
-let shortenHeight = 75;
+let shortenHeight = 50;
 let iPhoneWidth = 375;
-let iPhonwHeight = 667 - shortenHeight;
+let iPhoneHeight = 667 - shortenHeight;
 
 function setup() {
-    createCanvas(iPhoneWidth, iPhonwHeight);
+    createCanvas(iPhoneWidth, 667);
     background(220);
     noStroke();
 }
 
 function draw() {
     background(220);
-    rect(0, 600, 375, 67);
+    // rect(0, 600, 375, 67);
     circle(x, y, circleDiam);
     x += xStep;
     y += yStep;;
     if (x > iPhoneWidth - (circleDiam / 2)) { x = xOrig };
-    if (y > iPhonwHeight - (circleDiam)) { y = yOrig };
+    if (y > iPhoneHeight - (circleDiam)) { y = yOrig };
 }
