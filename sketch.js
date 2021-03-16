@@ -5,7 +5,7 @@ let xStep = 1;
 let yStep = 1;
 let x = xOrig;
 let y = yOrig;
-let shortenHeight = 50;
+let shortenHeight = 200;
 let iPhoneWidth = 375;
 let iPhoneHeight = 667 - shortenHeight;
 
@@ -21,5 +21,5 @@ function draw() {
     x += 2 * xStep;
     y += 2 * yStep;;
     if (x > iPhoneWidth - (circleDiam / 2)) { x = xOrig };
-    if (y > iPhoneHeight - (circleDiam)) { y = yOrig };
+    if (y > iPhoneHeight - (circleDiam / 2)) { y = yOrig };
 }
